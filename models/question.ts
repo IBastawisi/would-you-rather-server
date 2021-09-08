@@ -3,7 +3,7 @@ import { question } from '../types'
 
 const questionSchema = new Schema<question, Model<question>, question>({
   author: String,
-  timestamp: { type: Number, default: Date.now() },
+  timestamp: Number,
   optionOne: {  
     votes: Array,
     text: String

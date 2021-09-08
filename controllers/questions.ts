@@ -31,6 +31,7 @@ router.post('/', async (request, response) => {
 
   const question = new Question({
     author: user.username,
+    timestamp: Date.now(),
     optionOne: {
       votes: [],
       text: body.optionOne,
