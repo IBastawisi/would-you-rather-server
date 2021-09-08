@@ -1,14 +1,13 @@
 # Would You Rather Server
-This repo is a a Simple CRUD app with Node, Express, and MongoDB for Udacity React Nanodegree Program project Would You Rather.
+This repo is a Simple CRUD app with Node, Express, and MongoDB for Udacity React Nanodegree Program project Would You Rather.
 
 ### How to run:
 * install all project dependencies with `npm install`
-* start the development server with `npm run build`
+* start the development server with `npm run dev`
 * run a production build with `npm run build && npm start`
 
 ## Environment Setup
-Rename .env.exaple to .env
-Edit your Environment variables
+Rename .env.example to .env and Edit your Environment variables
 
 ## API Reference
 
@@ -134,6 +133,6 @@ The API will return three error types when requests fail:
 ```
 
 
-#### DELETE /questions/{question_id}
+#### DELETE /api/questions/{question_id}
 - General:
     - Deletes the question of the given ID if it exists. Returns status code 204 No Content. 
